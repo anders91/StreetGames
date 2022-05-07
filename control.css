@@ -1,0 +1,29 @@
+.active {
+    background-color: aqua;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreAnimation {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.scoreAnimation:hover {
+    background-color: bisque;
+}
+
+.player {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player input {
+    width: 12.5%;
+}

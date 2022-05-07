@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control</title>
+    <script src="./control.js"></script>
+    <link rel="stylesheet" href="control.css">
+
+</head>
+<body>
+    <form onsubmit="javascript:handle(event);return false;" id="myForm" name="myForm" oninput="javascript:tryThis(event);")>
+        <input type="submit" name="submit" value="Uppdatera" id="submit">
+    </form>
+    <!-- <button onclick="javascript:toggleSort('firstScore')" id="firstScore">Sortera på första åk</button>
+    <button onclick="javascript:toggleSort('secondScore')" id="secondScore">Sortera på andra åk</button>
+    <button onclick="javascript:toggleSort('totalTopFive')" id="totalTopFive">Sortera total</button>
+    -->
+    <form onsubmit="javascript:triggerAnimation();return false;">
+        <input id="animate" type="text" name="animationNumber" placeholder="Animate!">
+    </form>
+    
+</body>
+
+</html>
